@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+pecl install mongodb
+
 if [ -e /usr/local/sti/assemble ]; then
   # old assemble location in previous php image versions
   source /usr/local/sti/assemble
